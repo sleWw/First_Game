@@ -11,7 +11,7 @@ namespace roguelike.Player
 
         public bool IsInteracting { get; private set;}
 
-
+        /*
         void Awake()
         {
             _inputActions = new PlayerInputActions();
@@ -32,7 +32,8 @@ namespace roguelike.Player
         {
             float value = context.ReadValue<float>();
             IsInteracting = value >= 0.15f;
-        }
+        } 
+        */
 
     }
 }
